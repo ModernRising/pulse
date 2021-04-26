@@ -19,24 +19,23 @@
     }
 
     .carousel{
-        padding: 130px 0;
+        /* padding: 130px 0; */
 
         .prev, .next {
             transform: none;
+        }
+
+        .prev {
             top: 100%;
-            left: 30%;
+            left: 42%;
+        }
+
+        .next {
+            top: 100%;
+            right: 42%;
         }
     }
 
-    .prev, .next {
-        transform: none;
-    }
-
-    /* .next {
-        position: absolute;
-        right: 0;
-        left: 0;
-    } */
 }
 
 @media (max-width: 991px) {
@@ -100,6 +99,10 @@
                 margin-top: 48px;
             }
         }
+    }
+
+    .carousel {
+        padding: 80px 30px;
     }
 }
 
