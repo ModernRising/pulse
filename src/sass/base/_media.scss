@@ -101,7 +101,29 @@
        }
     }
 
+    .reviews {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__text {
+            text-align: center;
+            width: 80%;
+            margin:0 auto;
+            padding-right: 0;
+        }
+
+        &__name {
+            margin-top: 10px;
+        }
+
+        &__subtitle {
+            margin-top: 10px;
+        }
+    }
+
 }
+
 
 
 
