@@ -82,6 +82,25 @@
         }
     }
 
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 45px;
+        }
+
+        &__tab {
+            margin-bottom: 20px;
+        }
+
+       &-item {
+           width: 50%;
+       }
+
+       &__content {
+           margin-top: 30px;
+       }
+    }
+
 }
 
 
@@ -103,6 +122,21 @@
 
     .carousel {
         padding: 80px 30px;
+    }
+
+    .catalog {
+        &__tab {
+            font-size: 16px;
+        }
+        &-item {
+            &__price {
+                font-size: 18px;
+            }
+
+            &__img {
+                height: 150px;
+            }
+        }
     }
 }
 
@@ -155,6 +189,16 @@
     .consultation {
         &__descr {
             font-size: 16px;
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+
+        &-item {
+            width: 80%;
         }
     }
 }
