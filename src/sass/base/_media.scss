@@ -122,6 +122,7 @@
         }
     }
 
+
 }
 
 
@@ -158,6 +159,37 @@
             &__img {
                 height: 150px;
             }
+        }
+    }
+
+    .modal {
+        width: 340px;
+        padding: 38px 0 0 0;
+        height: 380px;
+        min-height: 0;
+        &__subtitle {
+            font-size: 16px;
+        }
+
+        &__descr {
+            font-size: 12px;
+        }
+    }
+
+    .feed-form_mt25 {
+        margin-top: 20px;
+
+        input {
+            font-size: 13px;
+            height: 40px;
+        }
+
+        .button {
+            display: block;
+            margin: 0 auto;
+            width: 85%;
+            height: 50px;
+            font-size: 14px;
         }
     }
 }
