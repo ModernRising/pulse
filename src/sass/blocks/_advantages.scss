@@ -46,6 +46,20 @@
                 animation-play-state: paused;
             }
         }
+
+        &_cup {
+            animation: cup 5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+
+        &_shoes {
+            animation: shoes 5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
 
     }
