@@ -17,6 +17,13 @@
             width: 31px;
             height: 50px;
         }
+        &:hover {
+            filter: brightness(130%);
+        }
+
+        &:focus {
+            outline: none;
+        }
     }
 
     .next {

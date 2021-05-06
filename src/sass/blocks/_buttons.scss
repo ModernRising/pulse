@@ -9,9 +9,9 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    transition: 0.5s all;
+    transition: 0.3s all;
     &:hover {
-        transform: scale(0.9);
+        filter: brightness(130%);
     }
 
     &_main {
